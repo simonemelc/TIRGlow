@@ -1,7 +1,7 @@
 # TIRGlow: A Multimodal Intrisincs-Guided Thermal-Aware Framework for RGB Low-Light Image Enhancement
 
 This is the official implementation of the paper accepted for publication at the **33rd IEEE International Conference on Image Processing (ICIP 2026)**.
-The code will be realeased soon.
+Code will be realeased soon.
 
 
 
