@@ -12,7 +12,7 @@ The code will be realeased soon.
 ---
 
 <p align="center">
-  <img src="figures/visual_comparison.PNG" alt="A teaser example on a very low-light image fusing RGB and TIR data" width="100%">
+  <img src="teaser_cr.jpg" alt="A teaser example on a very low-light image fusing RGB and TIR data" width="100%">
 </p>
 
 **Authors:** Simone Melcarne and Jean-Luc Dugelay || Eurecom Research Center, Digital Security Department, Biot, France
