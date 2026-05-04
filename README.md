@@ -1,2 +1,21 @@
-# TIRGlow
-A Multimodal Intrisincs-Guided Thermal-Aware Framework for RGB Low-Light Image Enhancement
+# TIRGlow: A Multimodal Intrisincs-Guided Thermal-Aware Framework for RGB Low-Light Image Enhancement
+
+
+
+[![Conference](https://img.shields.io/badge/Conference-ICIP_2026-blue)](https://2026.ieeeicip.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Framework](https://img.shields.io/badge/Framework-PyTorch-red)](https://pytorch.org/)
+
+---
+
+<p align="center">
+  <img src="figures/visual_comparison.PNG" alt="A teaser example on a very low-light image fusing RGB and TIR data" width="100%">
+</p>
+
+**Authors:** Simone Melcarne and Jean-Luc Dugelay || Eurecom Research Center, Digital Security Department, Biot, France
+
+## Publication
+
+This paper has been accepted for publication at the **33rd IEEE International Conference on Image Processing (ICIP 2026)**.
+
+---
