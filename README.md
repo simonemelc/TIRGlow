@@ -1,5 +1,8 @@
 # TIRGlow: A Multimodal Intrisincs-Guided Thermal-Aware Framework for RGB Low-Light Image Enhancement
 
+This is the official implementation of the paper accepted for publication at the **33rd IEEE International Conference on Image Processing (ICIP 2026)**.
+The code will be realeased soon.
+
 
 
 [![Conference](https://img.shields.io/badge/Conference-ICIP_2026-blue)](https://2026.ieeeicip.org/)
@@ -14,8 +17,6 @@
 
 **Authors:** Simone Melcarne and Jean-Luc Dugelay || Eurecom Research Center, Digital Security Department, Biot, France
 
-## Publication
 
-This paper has been accepted for publication at the **33rd IEEE International Conference on Image Processing (ICIP 2026)**.
 
 ---
