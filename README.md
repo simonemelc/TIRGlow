@@ -25,7 +25,7 @@ This is the official implementation of the paper accepted for publication at the
 ## The Framework
 
 <p align="center">
-  <img src="pipeline_tirglow.pdf" alt="Framework Overview" width="100%">
+  <img src="pipeline_tirglow.PNG" alt="Framework Overview" width="100%">
 </p>
 
 Low-light image enhancement (LLIE) is challenging when the visible signal is severely degraded by noise and information loss. We propose a **Multimodal Intrinsics-Guided Framework** that fuses low-light RGB and thermal infrared (TIR) data to reconstruct well-lit images, explicitly leveraging the physical structure of image formation:
