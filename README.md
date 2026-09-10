@@ -68,24 +68,6 @@ Training requires triplets of low-light RGB $I_{low}$, thermal $T$, and well-lit
 4. **Teacher Network weights (Careaga et al., intrinsic decomposition):**
    Pretrained checkpoint from: [https://github.com/compphoto/Intrinsic](https://github.com/compphoto/Intrinsic)
 
-### 2. Folder Structure
-
-```text
-/path/to/your/data/
-│
-├── hdrt/                       # HDRT dataset (training)
-│   ├── rgb/                    # well-exposed sRGB renderings (used as ground truth)
-│   ├── thermal/                # aligned thermal frames
-│   └── ...
-│
-├── llvip/                      # LLVIP dataset (zero-shot evaluation)
-│   ├── infrared/
-│   └── visible/
-│
-└── vtiee/                      # V-TIEE dataset (zero-shot evaluation)
-    ├── thermal/
-    └── rgb/
-```
 
 
 ## Installation
