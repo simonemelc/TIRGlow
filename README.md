@@ -52,7 +52,6 @@ $$\hat{X}^{l} = X^{l} \odot M^{l}, \qquad M^{l} = \sigma\left(W_\psi \, \phi\lef
 
 Training requires triplets of low-light RGB $I_{low}$, thermal $T$, and well-lit ground truth $I_{gt}$. The model is trained on **HDRT** (via a physics-based low-light simulation pipeline) and evaluated zero-shot on **LLVIP** and **V-TIEE**.
 
-### 1. Download Data
 
 1. **HDRT Dataset (Thermal & HDR/SDR RGB) — training:**
    Official dataset page: [https://huggingface.co/datasets/jingchao-peng/HDRTDataset](https://huggingface.co/datasets/jingchao-peng/HDRTDataset)
@@ -63,10 +62,7 @@ Training requires triplets of low-light RGB $I_{low}$, thermal $T$, and well-lit
 
 3. **V-TIEE Dataset (Thermal & RGB) — zero-shot evaluation:**
    Released alongside RT-X Net: [https://github.com/jhakrraman/rt-xnet](https://github.com/jhakrraman/rt-xnet)
-   <!-- TODO: per la valutazione riportata nel paper, il test set LLVIP usa i 70 campioni ufficiali di Jha et al. e V-TIEE una selezione manuale di 28 immagini pulite; vedi Supplementary. Se pubblichi le liste esatte, linkale qui. -->
 
-4. **Teacher Network weights (Careaga et al., intrinsic decomposition):**
-   Pretrained checkpoint from: [https://github.com/compphoto/Intrinsic](https://github.com/compphoto/Intrinsic)
 
 
 
