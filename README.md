@@ -63,7 +63,7 @@ Training requires triplets of low-light RGB $I_{low}$, thermal $T$, and well-lit
 3. **V-TIEE Dataset (Thermal & RGB) — zero-shot evaluation:**
    Released alongside RT-X Net: [https://github.com/jhakrraman/rt-xnet](https://github.com/jhakrraman/rt-xnet)
 
-   > **Note:** Note that for LLVIP images we used the test set of 70 samples that RTX-Net authors made available from their official GitHub page. Regarding V-TIEE images, due to the lack of official documentation
+   > **Note:** For LLVIP images we used the test set of 70 samples that RTX-Net authors made available from their official GitHub page. Regarding V-TIEE images, due to the lack of official documentation
 detailing the pairing of low-light and well-lit images (ground truths), we performed a manual selection and pairing between the different low-exposure and high-exposure versions within the dataset. This naturally led to the formation of a custom test set. Furthermore, since some well-lit images intended to serve as ground truth presented clearly perceptible artifacts (e.g., under-exposure, noise, incorrect white balance), we also selected images from the dataset that had balanced and clean ground truths, reducing the full set to a subset of 28. We report in Figure 2 of the supplemetary.pdf the 28 V-TIEE normal light images used in the test as ground truths.
 
 4. **Teacher network (Careaga et al., intrinsic decomposition):**
