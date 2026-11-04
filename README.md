@@ -202,7 +202,7 @@ python test_LLVIP.py \
 
 Add `--self_ensemble` to enable 8x geometric self-ensembling (horizontal/vertical flips + rotation) at test time. Per-image metrics and predicted images are saved to `output_models/eval_LLVIP/<run_tag>/`, with an aggregated `summary.json`.
 
-Zero-shot evaluation on V-TIEE follows the same pattern (note: LPIPS here uses the VGG backbone, vs. AlexNet in `test_LLVIP.py`):
+Zero-shot evaluation on V-TIEE follows the same pattern:
 
 ```bash
 python test_VTIEE.py \
