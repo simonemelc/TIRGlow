@@ -214,8 +214,6 @@ python test_VTIEE.py \
   --device 0
 ```
 
-Per-image metrics, predicted images and attention-map visualizations are saved to `output_models/eval_VTIEE/<run_tag>/`, with an aggregated `summary.json`.
-
 ---
 
 ## Citation
