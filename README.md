@@ -33,7 +33,7 @@ where $R \in \mathbb{R}^{3 \times H \times W}$ is the illumination-invariant ref
 
 ### Key Components
 
-* **Teacher–Student Distillation:** Since no ground-truth reflectance/shading exists for LLIE, a frozen, pretrained intrinsic decomposition network ([Careaga & Aksoy](https://github.com/compphoto/Intrinsic)) acts as a **teacher**. The teacher is run **offline, once, on the normal-exposure images** to pre-compute target reflectance ($\*\_alb.png$) and shading ($\*\_shd.npy$) maps, which are then loaded from disk during training to supervise the student.
+* **Teacher–Student Distillation:** Since no ground-truth reflectance/shading exists for LLIE, a frozen, pretrained intrinsic decomposition network ([Careaga & Aksoy](https://github.com/compphoto/Intrinsic)) acts as a **teacher**. The teacher is run offline, once, on the normal-exposure images to pre-compute target reflectance ($\*\_alb.png$) and shading ($\*\_shd.npy$) maps, which are then loaded from disk during training to supervise the student.
 * **Dual-Encoder Fusion (FB):** Independent RGB and TIR encoders extract multi-scale features, fused at every resolution level through **Fusion Blocks**.
 * **Multi-Scale Attention Gating (AG):** Inspired by Attention U-Net, gated skip connections selectively inject thermal structural details only where the visible signal is degraded, suppressing thermal noise elsewhere:
 
